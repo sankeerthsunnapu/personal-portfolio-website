@@ -1,0 +1,131 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  color: black;
+}
+
+.imageSection1 {
+  background-image: url(beautiful-scenery-background-wnxju2647uqrcccv.jpg);
+  min-height: 100%;
+}
+.imageSection2 {
+  background-image: url(1318301.png);
+  min-height: 400px;
+}
+.imageSection3 {
+  background-image: url(3.jpg);
+  min-height: 400px;
+}
+.imageSection4{
+    background-image: url(istockphoto-1291199071-612x612.jpg);
+    min-height: 400px;
+}
+.imageSection5{
+    background-image: url(8.png);
+    min-height: 400px;
+}
+
+.imageSection1,
+.imageSection2,
+.imageSection3,
+.imageSection4,
+.imageSection5 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.text {
+  font-size: 40px;
+  padding: 20px 40px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sectionLight {
+  background-color: white;
+  color: black;
+}
+.sectionDark {
+  background-color: black;
+  color: white;
+}
+
+.sectionLight,
+.sectionDark {
+  padding: 50px 200px;
+  text-align: center;
+}
+
+.sectionLight h2,
+.sectionDark h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.sectionLight p,
+.sectionDark p {
+  line-height: 40px;
+  font-size: 18px;
+}
+
+
+#projects {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.project {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.project p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-height: 200px; /* Set the maximum height as per your preference */
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
